@@ -26,3 +26,18 @@ pipeline {
      }
    }
 }
+
+post {
+   always{
+       echo 'In always loop'
+   }
+   success
+   {
+      echo 'In success loop'
+   }
+
+   failure
+   {
+      echo 'In success loop'
+   }
+}

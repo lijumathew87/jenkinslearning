@@ -17,7 +17,7 @@ pipeline {
          echo "This is version ${NEW_VERSION}"
        }
      }
-
+     }
        stage("test")
      {
        when {

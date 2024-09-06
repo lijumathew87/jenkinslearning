@@ -14,7 +14,7 @@ pipeline {
            
        steps{
          echo 'Building the application'
-         echo "This is version ${NEW_VERSION}"
+         echo "This is version ${params.NEW_VERSION}"
        }
      }
      

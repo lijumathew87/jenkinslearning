@@ -25,7 +25,6 @@ pipeline {
        }
      }
    }
-}
 
 post {
    always{
@@ -40,4 +39,5 @@ post {
    {
       echo 'In success loop'
    }
+}
 }
